@@ -333,8 +333,8 @@ function initList() {
   	proxyItem.append("div")
          	.attr("class", "col-md-3")
          	.style("text-align", "right")
-         	.attr("title", points[i].Reference)
-         	.text(points[i].Reference);
+         	.attr("title", points[i].Comments)
+         	.text(points[i].Comments);
   }
 }
 
