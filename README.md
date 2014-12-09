@@ -1,4 +1,4 @@
 ACCLIMATE_ProxiesFinder
 =======================
 
-dc.js + leaflet application to discover climate proxies from ACCLIMATE project
+dc.js + leaflet application to discover climate proxies for ACCLIMATE project
