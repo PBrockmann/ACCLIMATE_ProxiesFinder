@@ -1,0 +1,208 @@
+record ID	Core	RecentDate	OldestDate	Latitude	Longitude	Depth	Comments	NbData	Species	Proxy	Zone	Original data file	Age model file	Filename d18O xls	Filename d18O csv	Filename D13C xls	Filename D13C csv	Oldest spanned period	D13c data	1st author	2nd author	publication date	DOI	Reference backup
+1	GeoB1706	4.5	159.53	-19.56	11.18	980	Little et al., 1997		G. inflata	Planktic isot.	South Atlantic	GeoB1706-2_d18O_d13C.tab	GeoB1706-2_age_control.tab	GeoB1706_2_d13C_d18O_inflata.xlsx	GeoB1706_2_d13C_d18O_inflata.csv	GeoB1706_2_d13C_d18O_inflata.xlsx	GeoB1706_2_d13C_d18O_inflata.csv	151 ka	Yes	Little	et al.,	1997		Little et al., 1997
+2	RC11-83	1.267	74.2	-42	10	4718	Charles et al., 1996		Cibicidoides mundulus	Benthic isot.	South Atlantic (Cape Basin)	RC11-83.6fe14.xlsx	RC11-83.6fe14.xlsx	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Cmundulus.csv	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Cmundulus.csv	74.2 ka	Yes	Charles	et al., 	1996		Charles et al., 1996
+3	RC11-83	1.267	74.2	-42	10	4718	Charles et al., 1996		N. pachyderma	Planktic isot.	South Atlantic (Cape Basin)	RC11-83.6fe14.xlsx	RC11-83.6fe14.xlsx	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Npachyderma.csv	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Npachyderma.csv	74.2 ka	Yes	Charles	et al., 	1996		Charles et al., 1996
+4	RC11-83	1.267	74.2	-42	10	4718	Charles et al., 1996		G. bulloides	Planktic isot.	South Atlantic (Cape Basin)	RC11-83.6fe14.xlsx	RC11-83.6fe14.xlsx	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Gbulloides.csv	RC11_83_d13C_d18O.xlsx	RC11_83_d13C_d18O_Gbulloides.csv	74.2 ka	Yes	Charles	et al., 	1996		Charles et al., 1996
+5	RC11-83	1.267	74.2	-42	10	4718	Charles et al., 1996		 	Opal	South Atlantic (Cape Basin)	RC11-83.6fe14.xlsx	RC11-83.6fe14.xlsx	RC11_83_d13C_d18O.xlsx	RC11_83_perc_opal.csv			74.2 ka	Yes	Charles	et al., 	1996		Charles et al., 1996
+6	GeoB6211-2	10.186	18.999	-32.5	-50.24	657	Chiessi et al., 2008		U. bifurcata	Benthic d18O														Chiessi et al., 2008
+7	GeoB6211-2	10.186	18.999	-32.5	-50.24	657	Chiessi et al., 2008		G. inflata	Planktic d18O														Chiessi et al., 2008
+8	GeoB6211-2	10.186	18.999	-32.5	-50.24	657	Chiessi et al., 2008		U. bifurcata	MgCa														Chiessi et al., 2008
+9	GeoB6211-2	10.186	18.999	-32.5	-50.24	657	Chiessi et al., 2008		G. inflata	MgCa														Chiessi et al., 2008
+10	GeoB6211-2	10.186	18.999	-32.5	-50.24	657	Chiessi et al., 2008		7	14C														Chiessi et al., 2008
+11	GeoB1515	1.96	60	4.24	-43.07	3129	Vidal et al., 99		C. wuellerstorfi	Benthic d18O														Vidal et al., 99
+12	GeoB1711	4.12	65	-23.32	12.38	1967	Little et al., 1997		G. inflata	Planktic isot.														Little et al., 1997
+13	GeoB1711	4.12	65	-23.32	12.38	1967	Little et al., 1997		C. wuellerstorfi	Benthic d18O														Little et al., 1997
+14	GeoB1711	4.12	65	-23.32	12.38	1967	Little et al., 1997			% pl forams														Little et al., 1997
+15	GeoB1023-5	0.31	21.19	-17.2	11	1978	Kim et al., 02		9 TOC, pl.for., mix for.	14C														Kim et al., 02
+16	GeoB1023-5	0.31	21.19	-17.2	11	1978	Schneider et al., 92		G. bulloides	Planktic isot.														Schneider et al., 92
+17	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Carlson et al., 08		40	14C														Carlson et al., 08
+18	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Carlson et al., 08		G. inflata	Planktic d18O														Carlson et al., 08
+19	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Carlson et al., 08		G. inflata	MgCa														Carlson et al., 08
+20	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Curry & Oppo 2005			Benthic isot.														Curry & Oppo 2005
+21	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Sortor & Lund 11			bent + plank 14C														Sortor & Lund 11
+22	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Came et al., 2003		18 monosp pl.	14C														Came et al., 2003
+23	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Came et al., 2003		H. elegans	Cd/Ca														Came et al., 2003
+	MD99-2306			77.63	9.95	1338	Claire's LIST - In Gif?																	
+	MD99-2304			77.62	9.95	1348	Claire's ACCLIMATE LIST																	
+	MD99-2303			77.52	8.4	2325	Claire's ACCLIMATE LIST																	
+	MD99-2299			72.37	7.44	2615	Claire's ACCLIMATE LIST																	
+	MD99-2311			71.19	-18.51	1584	Claire's ACCLIMATE LIST																	
+	MD08-3191			67.41	4.83	1352	Claire's ACCLIMATE LIST																	
+	MD95-2010			66.68	4.57	1226	Claire's ACCLIMATE LIST																	
+	MD99-2278			66.55	-10.11	1421	Claire's ACCLIMATE LIST																	
+	MD95-2009			62.74	-3.1	1027	Claire's ACCLIMATE LIST																	
+	HU75-41			62.66	-53.88	2381	Claire's ACCLIMATE LIST																	
+	SU90-24			62.07	-37.03	2085	Claire's ACCLIMATE LIST																	
+	MD99-2246			61.91	-36.36	2750	Claire's LIST - very good?																	
+	MD95-2014			60.58	-22.08	2397	Claire's ACCLIMATE LIST																	
+	VM29-202			60.38	-20.97	2658	Oppo & Lehman 95; LS14																	
+	MD99-2281			60.34	-9.46	1197	Claire's ACCLIMATE LIST																	
+	SU90-33			60.06	-22.01	2400	In Gif																	
+	MD99-2282			59.43	-10.57	1360	Claire's ACCLIMATE LIST																	
+	SO82_5-2			59.17	-30.91	1416	belle cbe SST																	van Kreveld et al. (2000) Paleoceanography, 15(4), 425-442.
+	MD99-2247			59.08	-31.47	1690	Claire's ACCLIMATE LIST																	
+	MD95-2015			58.76	-25.96	2630	Claire's ACCLIMATE LIST																	
+	MD03-2678Q			58.76	-25.96	2603	Claire's ACCLIMATE LIST																	
+	CH77-03			57.93	-29.1	2271	Claire's ACCLIMATE LIST																	
+	MD95-2016			57.71	-29.42	2318	Claire's ACCLIMATE LIST																	
+	MD03-2676Q			57.45	-27.91	2607	Claire's ACCLIMATE LIST																	
+	MD03-2665			57.44	-48.61	3440	Claire's ACCLIMATE LIST																	
+	MD95-2006			57.03	-10.06	2122	Bill Austin (belle cbe SST)																	Austin et al.
+	MD03-2674Q			56.37	-27.81	2829	Claire's ACCLIMATE LIST																	
+	NA87-22			55.5	-14.7	2161	Claire's ACCLIMATE LIST																	
+	MD03-2686			55.49	-14.7	2162	Claire's LIST; In Gif?																	
+	ODP 980			55.49	-14.7	2168	McManus 99																	
+	MD95-2003			55.18	-14.76	2365	Claire's ACCLIMATE LIST																	
+	ENAM97-09			54.89	-16.59	2452	Claire's ACCLIMATE LIST																	
+	CH73-139C			54.64	-16.36	2209	Claire's ACCLIMATE LIST																	
+	SU90-38			54.09	-21.08	2900	In Gif																	
+	V23-81			54.03	-16.13	2393	Claire's ACCLIMATE LIST																	
+	M23414			53.53	-20.283	2196	Kandiano 07																	
+	KN166-14-JPC-13			53.05	-33.53	3082	Hodell et al., 10; LS14																	
+	MD08-3182Q			52.7	-35.94	3757	Claire's ACCLIMATE LIST																	
+	SU90-39			52.57	-21.94	3955	In Gif																	
+	MD01-2458			52.3	-13.05	640	Claire's ACCLIMATE LIST																	
+	MD01-2449			51.03	-14.41	435	Claire's ACCLIMATE LIST																	
+	MD95-2024			50.2	-45.7	3448	Stoner 00																	
+	IODP U1302/3			50.167	-45.638	3560	Channell 12																	
+	SU90-44			50.1	-17.91	4255	In Gif																	
+	IODP U1308			49.88	-24.23	3883	Hodell et al., 08; LS14																	
+	MD99-2304			48.08	-9.51	942	Claire's ACCLIMATE LIST																	
+	MD95-2002			47.45	-8.53	2174	Claire's ACCLIMATE LIST																	
+	MD95-2001			46.8	-8.67	3788	Claire's ACCLIMATE LIST																	
+	MD03-2692			46.83	-9.516	4064	Toucanne 09; Penaud 08																	
+	MD04-2845			45.35	-5.22	4175	Claire's LIST; Sanchez Goi 08																	
+	MD01-2448			44.78	-11.27	3460	Claire's LIST; Toucanne 09																	
+	SU90-11			44.07	-40.03	3645	In Gif																	
+	SU92-03			43.2	-10.11	3005	Voelker 11, Salgueiro - In Gif?																	
+	SU90-08			43.05	-30.04	3080	In Gif																	
+	OMEXII-9K			42.343	-10.051	1833	Salgueiro 14																	
+	MD03-2697			42.16	-9.7	2164	Claire's LIST; Salgueiro 14; Desprat 09																	
+	MD99-2331			42.15	-9.68	2120	Claire's LIST - Voelker 11; Salgueiro 14																	
+	MD01-2447			42.15	-9.67	2080	Desprat ICP04																	
+	N3KF24			42.141	-11.959		Salgueiro 14; IFREMER core?																	
+	OMEXII-5K			41.833	10.018		Salgueiro 14; IFREMER core?																	
+	CH69-K09			41.76	-47.35	4100	Claire's LIST - No sed. left																	
+	MD95-2027			41.74	-47.41	4112	Claire's LIST - In Gif																	
+	PO200-10-28-1			41.488	-9.722	2160	Salgueiro 14; Abrantes 98																	
+	IODP U1313			41	-32.95	3412	Naafs 13																	
+	MD01-2040			40.58	-9.86	2465	Voelker 11; Salgueiro 14																	
+	MD95-2039			40.578	-10.348	3381	Salgueiro 14																	
+	D11957P			39.05	-12.583	3585	Salgueiro 14																	
+	MD03-2699			39.0367	-10.6605	1895	Palumbo JQS13																	
+	MD01-2446			39.01	-12.62	3547	Claire's LIST; Salgueiro 14																	
+	SHOM92-10			38.58	-29.26	1900	Claire's ACCLIMATE LIST																	
+	MD03-2698			38.24	-10.39	4602	Voelker 11																	
+	SU92-26			37.88	-9.41	1150	In Gif																	
+	MD04-2812			37.88	-10.08	2901	Claire's ACCLIMATE LIST																	
+	MD01-2443			37.88	-10.18	2941	Voelker 11; Martrat																	
+	MD95-2041			37.83	-9.52	1123	Voelker 11; salgueiro 14																	
+	MD99-2334K			37.8	-10.17	3146	Claire's LIST - Skinner et al 07 - LS14 - Voelker 11																	
+	MD95-2042			37.8	-10.17	3146	Voelker 11; Shackleton 00; Salgueiro 14																	
+	SU81-18			37.77	-10.18	3135	Claire's ACCLIMATE LIST																	
+	MD90-905			37.74	-10.17	2925	Claire's ACCLIMATE LIST																	
+	MD01-2444			37.55	-10.13	2460	Skinner et al., 07; LS14; Voelker 11																	
+	SU92-28			37.1	-9.48	997	In Gif																	
+	MD95-2037			37.09	-32.03	2159	ongoing																	
+	SU81-14			36.77	-9.85	2795	Claire's ACCLIMATE LIST																	
+	MD99-2336			36.72	-8.26	690	Voelker 11																	
+	SU92-21			36.51	-23.74	4170	In Kiel?																	
+	M39029-7			36.05	-8.233	1917	Salgueiro 14																	
+	MD99-2339			35.89	-7.53	1177	Claire's LIST; Voelker 11; Salgueiro 14																	
+	MD04-2803Q			35.52	-4.35	1291	Claire's ACCLIMATE LIST																	
+	MD08-3216			35.29	-6.78	515	Claire's ACCLIMATE LIST																	
+	MD03-2653Q			34.98	-75.2	603	Claire's ACCLIMATE LIST																	
+	MD99-2203			34.97	-75.2	620	Claire's ACCLIMATE LIST																	
+	MD04-2805Q			34.52	-7.02	859	Penaud et al., 2010																	
+	MD04-2805Q			34.52	-7.02	500	Claire's ACCLIMATE LIST																	
+	MD02-2577Q			28.84	-86.66	476	Claire's ACCLIMATE LIST																	
+	GeoB5540-2			27.54	-14.18	2037	DESIRABLE CRUISE STATION																	
+	GeoB5546-2			27.54	-13.74	1172	DESIRABLE CRUISE STATION																	
+	GeoB5536-2			27.54	-18.14	3455	DESIRABLE CRUISE STATION																	
+	GIK16017-2			21.25	-17.8	812	DESIRABLE CRUISE STATION																	
+	GIK12328-5			21.15	-18.57	2778	DESIRABLE CRUISE STATION																	
+	GeoB7920-2			20.75	-18.58	2278	Tjallingi et al., 08; LS14																	
+	CHO288-54			17.43	-77.66	1020	Claire's ACCLIMATE LIST																	
+	GUAD-GUA-17			16.32	-62.04	1230	Claire's ACCLIMATE LIST																	
+	GeoB9506-1			15.61	-18.35	2956	DESIRABLE CRUISE STATION																	
+	GeoB9508-5			15.5	-17.95	2384	DESIRABLE CRUISE STATION																	
+	GeoB9510-1			15.42	-17.65	1566	DESIRABLE CRUISE STATION																	
+	GeoB9512-5			15.34	-17.37	793	DESIRABLE CRUISE STATION																	
+	GeoB9513-3			15.32	-17.29	494	DESIRABLE CRUISE STATION																	
+	V22-197			14.17	-18.58	3167	DESIRABLE CRUISE STATION																	
+	GeoB9527-5			12.43	-18.22	3679	DESIRABLE CRUISE STATION																	
+	GeoB9526-5			12.43	-18.05	3233	Zarreiss, 2010; LS14																	
+	GeoB9535-4			8.88	-14.96	669	DESIRABLE CRUISE STATION																	
+	MD03-2616			7.81	-53.01	1233	Claire's ACCLIMATE LIST																	
+	CH22 KW31			3.52	5.57	1181	DESIRABLE CRUISE STATION																	
+	GeoB4901-8			2.68	6.72	2184	DESIRABLE CRUISE STATION																	
+	GeoB4905-4			2.5	9.39	1328	DESIRABLE CRUISE STATION																	
+	GeoB1701-4			1.95	3.55	4162	DESIRABLE CRUISE STATION																	
+	GeoB4906-3			-0.69	8.38	1274	DESIRABLE CRUISE STATION																	
+	MD09-3256Q			-3.55	-35.39	3537	ongoing																	
+	GeoB3104-1	2.88	24.28	-3.67	-37.72	767	Arz et al., 1999		7 G. sacculifer	14C														Arz et al., 1999
+	GeoB3104-1	2.88	24.28	-3.67	-37.72	767	Arz et al., 1999		G. sacculifer	Planktic d18O														Arz et al., 1999
+	GeoB3104-1	2.88	24.28	-3.67	-37.72	767	Arz et al., 1999		P. ariminensis + C. pseudoungeriana	Benthic d18O														Arz et al., 1999
+	MD09-3245			-3.78	-37.06	2405	ongoing																	
+	GeoB3117-1			-4.19	-37.13	930	Arz et al., 1999																	Arz et al., 1999
+	MD09-3242Q			-4.22	-37.07	1008	ongoing																	
+	MD09-3246			-4.23	-37.1	892	ongoing																	
+	MD09-3257			-4.24	-36.35	2344	ongoing																	
+	MD09-3247Q			-4.25	-37.12	806	ongoing																	
+	MD09-3249			-4.26	-37.14	696	ongoing																	
+	MD09-3243Q			-4.27	-37.14	656	ongoing																	
+	MD09-3259			-4.61	-36.65	858	ongoing																	
+	GeoB3129-1	1.91	20.14	-4.61	-36.64	830	Arz et al., 1999		16 G. sacculifer	14C														Arz et al., 1999
+	GeoB3129-1	1.91	20.14	-4.61	-36.64	830	Arz et al., 1999		G. sacculifer	Planktic d18O														Arz et al., 1999
+	MD09-3252			-4.62	-36.64	736	ongoing																	
+	GeoB6518-1			-5.59	11.22	962	DESIRABLE CRUISE STATION																	
+	GeoB6518-1			-5.6	11.2	962	Weijers et al., 2007		MBT/CBT	SST														In Shakun 2012
+	GeoB6518-1			-5.6	11.2	962	Schefub et al., 2008		Uk'37	SST														In Shakun 2012
+	GeoB1008-3			-6.58	10.32	3124	DESIRABLE CRUISE STATION																	
+	GeoB3176-1			-7.01	-34.44	1385	Arz et al., 1999																	Arz et al., 1999
+	RETRO Angola			-11.9	12.5	2000	DESIRABLE CRUISE STATION																	
+	RETRO Angola			-11.9	11.7	3000	DESIRABLE CRUISE STATION																	
+	ODP1078C			-11.92	13.4	426	DESIRABLE CRUISE STATION																	
+	RETRO Angola			-11.92	13.35	600	DESIRABLE CRUISE STATION																	
+	RETRO Angola			-11.92	13.24	1000	DESIRABLE CRUISE STATION																	
+	RETRO Angola			-11.92	13.19	1200	DESIRABLE CRUISE STATION																	
+	GeoB1023-5			-17.16	11.01	1978	DESIRABLE CRUISE STATION																	
+	ODP 1084B			-17.2	11	1978	Farmer et al., 2005		MgCa	SST														In Shakun 2012
+	MD08-3173			-19.46	12.41	615																		
+	GeoB1706-2			-19.56	11.18	980	DESIRABLE CRUISE STATION																	
+	GeoB3229-2			-19.64	-38.72	780	Arz et al., 1999																	Arz et al., 1999
+	GeoB1028-5			-20.1	9.19	2209	DESIRABLE CRUISE STATION																	
+	GeoB3202-1	3.28	21.59	-21.62	-39.98	1090	Arz et al., 1999		4 G. sacculifer	14C														Arz et al., 1999
+	GeoB3202-1	3.28	21.59	-21.62	-39.98	1090	Arz et al., 1999		G. sacculifer	Planktic d18O														Arz et al., 1999
+	GeoB3202-1	3.28	21.59	-21.62	-39.98	1090	Arz et al., 1999		U. peregrina	Benthic d18O														Arz et al., 1999
+	226920-2			-22.75	12.6	1683	DESIRABLE CRUISE STATION																	
+	MD08-3171			-23.27	12.74	1154	ongoing																	
+	MD08-3167			-23.32	12.38	1948	ongoing																	
+	MD08-3170			-23.43	11.7	2974	ongoing																	
+	MD08-3168			-24.62	13.16	1137	ongoing																	
+	KNR159-5-36GGC	1.11	22.84	-27.5	-46.5	1268	Hendry et al., 2012		spicules	d30Si														Hendry et al., 2012
+	GeoB1719			-28.92	14.17	1024	CRUISE STATION																	
+	GeoB1720-2			-29	13.84	1997	Dickson et al., 2009																	
+	ODP1085			-29.37	13.99	1713	CRUISE STATION																	
+	VM27-196			-36.33	-7.57	1106	CRUISE STATION																	
+	V22-113			-37.55	9.93	5073	CRUISE STATION																	
+	ODP 1089			-40.94	-9.89	4621	Hodell et al., 2003																	
+	TNO57-21-PC2	10	40	-41.1	7.8	4981	Sachs et al., 2001		Uk'37	SST														Sachs et al., 2001
+	TNO57-21-PC2	6	100	-41.1	7.8	4981	Ninnemann et al., 99		Cibicidoides spp.	Benthic isot.														Ninnemann et al., 99
+	TNO57-21-PC2	10	65	-41.1	7.8	4981	Ninnemann et al., 99		N. pachyderma	Planktic isot.														Ninnemann et al., 99
+	TNO57-21-PC2	6	100	-41.1	7.8	4981	Channel et al., 00			paleomag														Channel et al., 00
+	TNO57-21	10	30	-41.1	7.8	4981	Barker et al., 2009		MgCa G. bullo	SST														Barker et al., 2009
+	TNO57-21	10	30	-41.1	7.8	4981	Barker et al., 2009		18 G. bullo	14C														Barker et al., 2009
+	TNO57-21	10	30	-41.1	7.8	4981	Barker et al., 2009		warm/cold sp	% pl forams														Barker et al., 2009
+	TNO57-21	10	30	-41.1	7.8	4981	Piotrowski et al., 08, 12			ENd														Piotrowski et al., 08, 12
+	MD02-2588			-41.33	25.83	2907	Ziegler et al., 2009																	
+	MD02-2589			-41.43	-25.26	2660	Moulineaux et al., 2007																	
+	PS2082-1			-43.22	11.74	4610	CRUISE STATION																	
+	MD07-3076Q			-44.15	-14.22	3770	ongoing																	
+	TN057-11/PS2567-2			-46.93	6.25	4095	CRUISE STATION																	
+	TN057-10			-47.1	7.42	4390	CRUISE STATION																	
+	PS1654-2			-50.16	5.72	3744	CRUISE STATION																	
+	PS2366			-51.01	-5.96	2114	CRUISE STATION																	
+	PS1768-8			-52.59	4.48	3299	CRUISE STATION																	
+	PS2102-2			-53.07	-4.98	2390	CRUISE STATION																	
+	PS2090-1			-53.18	5.13	2819	CRUISE STATION																	
