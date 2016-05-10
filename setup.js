@@ -157,8 +157,8 @@ function initCrossfilter(data) {
     .dimension(tableDim)
     .group(function(d) {})
     .showGroups(false)
-    .size(10)
-    //.size(xf.size()) //display all data
+    //.size(10)
+    .size(xf.size()) //display all data
     .columns([
       function(d) { return d.Id; },
       function(d) { return d.Core; },
