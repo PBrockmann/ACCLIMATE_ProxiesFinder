@@ -1,0 +1,6 @@
+[submodule "lib"]
+	path = lib
+	url = https://github.com/ardhi/Leaflet.MousePosition
+[submodule "lib/Leaflet.MousePosition"]
+	path = lib/Leaflet.MousePosition
+	url = https://github.com/ardhi/Leaflet.MousePosition
