@@ -35,11 +35,15 @@ $(document).ready(function() {
 
     $('#chart-table').on('click', '.dc-table-column', function() {
       id = d3.select(this.parentNode).select(".dc-table-column._0").text();
-      console.log(id);
       dataTable.filter(id);
       dc.redrawAll();
-      // make reset link visible
-      d3.select("#resetTableLink").style("display", "inline");
+    });
+
+    $('#chart-table').on('mouseover', '.dc-table-column', function() {
+      // displays popup only if text does not fit in col width
+      if (this.offsetWidth < this.scrollWidth) {
+        d3.select(this).attr('title', d3.select(this).text());
+      }
     });
 
   });
@@ -140,7 +144,7 @@ function initCrossfilter(data) {
         .group(xf.groupAll())
         .html({
             some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records',
-            all: 'All records selected. Please click on the graph to apply filters.'
+            all: 'All records selected. Please zoom on the map or click on the table to apply filters.'
         });
 
 //-----------------------------------
@@ -159,8 +163,10 @@ function initCrossfilter(data) {
       function(d) { return d.Id; },
       function(d) { return d.Core; },
       function(d) { return format1(d.Depth); },
-      function(d) { return d.Comments; },
-      function(d) { return d.Reference; }
+      function(d) { if (d.Comments) return d.Comments; 
+		    else return "&nbsp;";},
+      function(d) { if (d.Reference) return d.Reference; 
+		    else return "&nbsp;";}
     ])
     .sortBy(function(d){ return +d.Id; })
     .order(d3.ascending);
@@ -168,14 +174,6 @@ function initCrossfilter(data) {
   //-----------------------------------
   dc.renderAll();
 
-}
-
-// reset dataTable
-function resetTable() {
-  dataTable.filterAll();
-  dc.redrawAll();
-  // make reset link invisible
-  d3.select("#resetTableLink").style("display", "none");
 }
 
 //====================================================================
