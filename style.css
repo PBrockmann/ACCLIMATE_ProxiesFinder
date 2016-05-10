@@ -14,7 +14,7 @@
 #chart-table .th_Core, #chart-table .dc-table-column._1 { width: 200px; text-align: right;}
 #chart-table .th_Depth, #chart-table .dc-table-column._2 { width: 100px; text-align: right;}
 #chart-table .th_Comments, #chart-table .dc-table-column._3 { width: 400px; text-align: left; padding-left: 20px;}
-#chart-table .th_Reference, #chart-table .dc-table-column._4 { width: 403px; text-align: left; padding-left: 20px;}
+#chart-table .th_Reference, #chart-table .dc-table-column._4 { width: 430px; text-align: left; padding-left: 20px;}
 
 #chart-table .dc-table-column._3, #chart-table .dc-table-column._4 {
   overflow: hidden;
