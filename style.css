@@ -11,6 +11,9 @@
   line-height: 1em;
   border: 0px;
   padding: 5px;
+}
+
+#chart-table>thead>tr>th {
   font-weight: normal;
 }
 
@@ -47,6 +50,7 @@
   background: #333;
   background-color: #eee;
   border-top: 1px solid #ddd;
+  font-weight: normal;
 }
 
 #chart-table tr:hover {

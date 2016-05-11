@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
 
     $('#chart-table').on('mouseover', '.dc-table-column', function() {
-      // displays popup only if text does not fit in col width
+      // displays title only if text does not fit in col width
       if (this.offsetWidth < this.scrollWidth) {
         d3.select(this).attr('title', d3.select(this).text());
       }
