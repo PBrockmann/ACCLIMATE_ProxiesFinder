@@ -1,22 +1,27 @@
 
 #chart-table tbody {
-    display: block;
-    height: 300px;
-    overflow-y: auto;
-    overflow-x: hidden;
+  display: block;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #chart-table>thead>tr>th, #chart-table>tbody>tr>td {
-    float: left;
+  float: left;
+  line-height: 1em;
+  border: 0px;
+  padding: 5px;
+  font-weight: normal;
 }
 
-#chart-table .th_Id, #chart-table .dc-table-column._0 { width: 50px; text-align: left; }
-#chart-table .th_Core, #chart-table .dc-table-column._1 { width: 200px; text-align: right;}
+#chart-table .th_Id, #chart-table .dc-table-column._0 { width: 50px; text-align: left; padding-left: 5px;}
+#chart-table .th_Core, #chart-table .dc-table-column._1 { width: 150px; text-align: left;}
 #chart-table .th_Depth, #chart-table .dc-table-column._2 { width: 100px; text-align: right;}
-#chart-table .th_Comments, #chart-table .dc-table-column._3 { width: 400px; text-align: left; padding-left: 20px;}
-#chart-table .th_Reference, #chart-table .dc-table-column._4 { width: 430px; text-align: left; padding-left: 20px;}
+#chart-table .th_Comments, #chart-table .dc-table-column._3 { width: 450px; text-align: left; padding-left: 50px;}
+/* scrollbar width = 17px; total width set at 1200px */
+#chart-table .th_Reference, #chart-table .dc-table-column._4 { width: 433px; text-align: left; padding-left: 20px;}
 
-#chart-table .dc-table-column._3, #chart-table .dc-table-column._4 {
+#chart-table .dc-table-column._1, .dc-table-column._3, #chart-table .dc-table-column._4 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -26,30 +31,28 @@
   cursor: pointer; 
   color: #333;
   font-size: 13px;
-  padding: 0px;
-  background: #eee;
-  line-height: 2.2em;
-  background-color: #eee;
+  border: 0px;
 }
 
-#chart-table tr {
+#chart-table thead tr {
   background: #333;
   background-color: #ddd;
-}
-
-#chart-table tr th {
-  background: #ddd;
-}
-
-#chart-table tr:hover td {
-  font-weight: bold;
-  background: #ccc;
-}
-
-#chart-table th {
   color: #333;
   font-weight: normal;
   font-style: italic;
   padding: 0px;
 }
 
+#chart-table tbody tr {
+  background: #333;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+}
+
+#chart-table tr:hover {
+  background: #ccc;
+}
+
+#chart-table tr:hover td {
+  font-weight: bold;
+}

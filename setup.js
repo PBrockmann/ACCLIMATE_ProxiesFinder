@@ -163,10 +163,8 @@ function initCrossfilter(data) {
       function(d) { return d.Id; },
       function(d) { return d.Core; },
       function(d) { return format1(d.Depth); },
-      function(d) { if (d.Comments) return d.Comments; 
-		    else return "&nbsp;";},
-      function(d) { if (d.Reference) return d.Reference; 
-		    else return "&nbsp;";}
+      function(d) { return d.Comments; },
+      function(d) { return d.Reference; }
     ])
     .sortBy(function(d){ return +d.Id; })
     .order(d3.ascending);
