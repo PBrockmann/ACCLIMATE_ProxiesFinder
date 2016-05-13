@@ -46,8 +46,26 @@ $(document).ready(function() {
       }
     });
 
-  });
+    markers = mapChart.markerGroup();
+    markers.on('clustermouseover', function (a) {
+      childMarkers = a.layer.getAllChildMarkers();
+      childMarkers.forEach(function(d, i) {
+      	Id = d.key[2];
+      	d3.selectAll(".dc-table-column._0")
+      		.text(function (d) {
+      	     		if (parseInt(d.Id) == Id) {
+      				if (i==0) this.parentNode.scrollIntoView();  // scroll for first
+      	                 	d3.select(this.parentNode).style("font-weight", "bold");
+      	               	}
+      	     		return d.Id;
+              	});
+      });	
+    });
+    markers.on('clustermouseout', function (a) {
+      d3.selectAll(".dc-table-row").style("font-weight", "normal");
+    });
 
+  });
 });
 
 //====================================================================
