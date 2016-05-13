@@ -49,8 +49,9 @@ $(document).ready(function() {
     markers = mapChart.markerGroup();
     markers.on('clustermouseover', function (a) {
       childMarkers = a.layer.getAllChildMarkers();
-      childMarkers.forEach(function(d, i) {
-      	Id = d.key[2];
+      childMarkersIds = childMarkers.map(function(obj) {return obj.key[2]}).sort();
+      //console.log(childMarkersIds);
+      childMarkersIds.forEach(function(Id, i) {
       	d3.selectAll(".dc-table-column._0")
       		.text(function (d) {
       	     		if (parseInt(d.Id) == Id) {
